@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.izol.caripom.database_Activity">
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan Inputkan Data SPBU/POM Mini Anda !"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_marginTop="5dp"
+            android:hint="Nama Jalan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_jenis"
+            android:layout_marginTop="5dp"
+            android:hint="SPBU / Pom Mini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_jam"
+            android:layout_marginTop="5dp"
+            android:hint="Jam Operasional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_pertamax"
+            android:layout_marginTop="5dp"
+            android:hint="Pertamax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_pertalite"
+            android:layout_marginTop="5dp"
+            android:hint="Pertalite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_premium"
+            android:layout_marginTop="5dp"
+            android:hint="Premium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_solar"
+            android:layout_marginTop="5dp"
+            android:hint="Solar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_dexlite"
+            android:layout_marginTop="5dp"
+            android:hint="Dexlite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_pertamaxturbo"
+            android:layout_marginTop="5dp"
+            android:hint="Pertamax Turbo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:weightSum="2">
+            <Button
+                android:id="@+id/btn_simpan"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Simpan"
+                android:layout_marginTop="16dp"/>
+            <Button
+                android:id="@+id/btn_batal"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Batal"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
